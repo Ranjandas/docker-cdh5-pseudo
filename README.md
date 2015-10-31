@@ -30,3 +30,14 @@ If you want to access the cluster from your host, you will have to properly expo
 You can watch below on how to run the container.
 
 [![asciicast](https://asciinema.org/a/d9nw6alkw44f4b8sb7lcnp1yq.png)](https://asciinema.org/a/d9nw6alkw44f4b8sb7lcnp1yq)
+
+## Use Prebuilt Docker Images
+
+This repo is configured to automatically build Docker images in Docker Hub. You can get more details about it [here](https://hub.docker.com/r/ranjandas/docker-cdh5-pseudo/).
+
+You can use Pre-built Docker Images to run CDH5 container in pseudo distributed mode.
+
+```
+docker pull ranjandas/docker-cdh5-pseudo
+docker run -d -P ranjandas/docker-cdh5-pseudo
+```
