@@ -1,0 +1,8 @@
+# Packages for Cloudera's Distribution for Hadoop
+# Version 5.3.3 (for RedHat or CentOS 6 x86_64)
+
+[cloudera-cdh5]
+name=Cloudera's Distribution for Hadoop, Version 5.3.3
+baseurl=http://archive.cloudera.com/cdh5/redhat/6/x86_64/cdh/5.3.3/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-cloudera
+gpgcheck=1
